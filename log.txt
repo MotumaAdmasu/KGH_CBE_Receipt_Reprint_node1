@@ -1,0 +1,60 @@
+[2024-03-19T18:34:18.171Z] Transaction Number: tt
+Output URL: https://apps.cbe.com.et:100/?id=ttW92346119
+
+
+[2024-03-19T18:34:24.054Z] Transaction Number: tt
+Output URL: https://apps.cbe.com.et:100/?id=ttW92346119
+
+
+[2024-03-19T18:40:30.638Z] Transaction Number: DDGDGTHTJ
+Output URL: https://apps.cbe.com.et:100/?id=DDGDGTHTJW92346119
+
+
+[2024-03-19T18:46:32.433Z] Transaction Number: FT24078GSGX6
+Output URL: https://apps.cbe.com.et:100/?id=FT24078GSGX6W92346119
+
+
+[2024-03-19T19:08:44.902Z] Transaction Number: FT23123MFS6H
+Output URL: https://apps.cbe.com.et:100/?id=FT23123MFS6HW92346119
+
+
+[2024-03-19T19:09:21.801Z] Transaction Number: FT23123MFS6H
+Output URL: https://apps.cbe.com.et:100/?id=FT23123MFS6HW92346119
+
+
+[2024-03-19T19:10:08.730Z] Transaction Number: FT23123MFS6H
+Output URL: https://apps.cbe.com.et:100/?id=FT23123MFS6HW92346119
+
+
+[2024-03-19T19:10:40.019Z] Transaction Number: FT23122RSVDV
+Output URL: https://apps.cbe.com.et:100/?id=FT23122RSVDVW92346119
+
+
+[2024-03-19T19:14:20.011Z] Transaction Number: FT23122RSVDV
+Output URL: https://apps.cbe.com.et:100/?id=FT23122RSVDVW92346119
+
+
+[2024-03-19T19:14:27.259Z] Transaction Number: FT24078GSGX6
+Output URL: https://apps.cbe.com.et:100/?id=FT24078GSGX6W09338067
+
+
+[2024-03-19T19:14:52.787Z] Transaction Number: FT232640DNY4
+Output URL: https://apps.cbe.com.et:100/?id=FT232640DNY4W09338067
+
+
+[2024-03-19T19:16:04.837Z] Transaction Number: FT23123MFS6H
+Output URL: https://apps.cbe.com.et:100/?id=FT23123MFS6HW09338067
+
+
+[2024-03-19T19:57:24.986Z] Transaction Number: FT24079LFSFH
+Output URL: https://apps.cbe.com.et:100/?id=FT24079LFSFHW09338067
+
+
+[2024-03-19T19:58:25.210Z] Transaction Number: FT24079LFSFH
+Output URL: https://apps.cbe.com.et:100/?id=FT24079LFSFHW09338067
+
+
+[2024-03-20T08:38:23.521Z] Transaction Number: FT23298V2YW5
+Output URL: https://apps.cbe.com.et:100/?id=FT23298V2YW5W09338067
+
+
