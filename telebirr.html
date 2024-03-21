@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Commercial Bank of Ethiopia Customer Receipt</title>
-  <style>
+  <title>Telebirr Customer Receipt</title>
+<style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f2f2f2;
@@ -151,19 +151,18 @@
 <body>
 
 <div class="sidebar">
-  <img src="logo.png" style="margin-left: 50px; width:80px;height:80px">
-  <a class="active" href="index.html">CBE</a>
-  <a href="telebirr.html">Telebirr</a>
+  <img src="logo.png" style="margin-left: 50px; width:80px;height:80px; ">
+  <a href="index.html">CBE</a>
+  <a class="active" href="telebirr.html">Telebirr</a>
   <a href="logview.html">History</a>
   <a href="#about">About</a>
 </div>
-
 <div class="content">
   <div class="form-container">
-    <h1>Commercial Bank of Ethiopia Customer Receipt</h1>
+    <h1>Telebirr Customer Receipt</h1>
     <div>
       <form onsubmit="return displayText(event)">
-        <label for="textInput">Enter Transaction Number start with FT:</label>
+        <label for="textInput">Enter Transaction Number:</label>
         <input type="text" id="textInput" name="textInput" oninput="this.value = this.value.toUpperCase()">
         <button type="submit">Submit</button>
       </form>
@@ -174,7 +173,6 @@
     </div>
   </div>
 </div>
-
 <script>
   function displayText(event) {
     event.preventDefault(); // Prevent form submission
@@ -182,7 +180,7 @@
     var inputText = document.getElementById("textInput").value;
     var linkOutput = document.getElementById("linkOutput");
     var warningMessage = document.getElementById("warningMessage");
-    var url = "https://apps.cbe.com.et:100/?id=" + inputText + "W09338067";
+    var url = "https://transactioninfo.ethiotelecom.et/receipt/" + inputText;
 
     if (inputText.trim() === "") {
       warningMessage.textContent = "Insert Transaction Number!";
@@ -193,7 +191,7 @@
       window.location.href = url;
 
       // Create log entry
-      var logEntry = "Transaction Number: " + inputText + " " + "Output URL: " + url ;
+      var logEntry = "Transaction Number: " + inputText + "\nOutput URL: " + url + "\n\n";
       sendLogToServer(logEntry);
     }
   }

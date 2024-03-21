@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log Viewer</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table id="logTable">
+        <tr>
+            <th>Timestamp</th>
+            <th>Transaction Number</th>
+            <th>Output URL</th>
+        </tr>
+    </table>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    fetch('/getLogData')
+        .then(response => response.json())
+        .then(logData => {
+            const table = document.getElementById('logTable');
+
+            logData.forEach(entry => {
+                const row = table.insertRow();
+                const timestampCell = row.insertCell();
+                const transactionCell = row.insertCell();
+                const outputCell = row.insertCell();
+
+                timestampCell.textContent = entry.timestamp;
+                transactionCell.textContent = entry.transactionNumber;
+                outputCell.textContent = entry.outputUrl;
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching log data:', error);
+        });
+});
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Two Tabs Example</title>
+  <style>
+    .tab-container {
+      display: flex;
+    }
+
+    .tab {
+      flex: 1;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="tab-container">
+    <iframe class="tab" srcdoc='
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>Tab 1</title>
+        <style>
+          /* Add the styles from the original code here */
+        </style>
+      </head>
+      <body>
+        <!-- Add the HTML content from the original code here -->
+      </body>
+      </html>
+    '></iframe>
+
+    <iframe class="tab" srcdoc='
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>Tab 2</title>
+        <style>
+          /* Add the styles from the original code here */
+        </style>
+      </head>
+      <body>
+        <!-- Add the HTML content from the original code here -->
+      </body>
+      </html>
+    '></iframe>
+  </div>
+</body>
+</html>
