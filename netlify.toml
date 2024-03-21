@@ -1,0 +1,11 @@
+[build]
+  command = "npm install && npm run build" # Modify this if needed
+  publish = "dist" # Modify this if needed
+
+[build.environment]
+  NODE_VERSION = "14" # Modify this if needed
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
