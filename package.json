@@ -18,8 +18,4 @@
   },
   "devDependencies": {},
   "description": ""
-},
-"scripts": {
-  "start": "node server.js",
-  "build": "echo 'Server build step'"
 }
